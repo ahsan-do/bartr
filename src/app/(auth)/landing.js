@@ -45,7 +45,6 @@ const styles = StyleSheet.create({
     image: {
         width: 274,
         height: 192,
-        // marginBottom: 40,
     },
 
     loginText: {

@@ -28,7 +28,6 @@ const Signup = ({ navigation }) => {
             [name]: value,
         });
 
-        // Clear error when user types
         if (errors[name]) {
             setErrors({
                 ...errors,

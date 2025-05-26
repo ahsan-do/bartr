@@ -5,7 +5,7 @@ import { router } from 'expo-router';
 export default function SplashScreen() {
     useEffect(() => {
         const timer = setTimeout(() => {
-            router.replace('/landing'); // Or your initial route
+            router.replace('/landing');
         }, 2000);
 
         return () => clearTimeout(timer);
@@ -45,7 +45,6 @@ const styles = StyleSheet.create({
     image: {
         width: 274,
         height: 192,
-        // marginBottom: 40,
     },
 
 });

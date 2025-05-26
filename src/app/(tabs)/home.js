@@ -72,8 +72,6 @@ const Home = () => {
                 </TouchableOpacity>
             </View>
 
-
-
             {/* Cards List */}
             <FlatList
                 data={data}

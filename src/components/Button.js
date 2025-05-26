@@ -30,7 +30,7 @@ const styles = StyleSheet.create({
     },
     active: {
         backgroundColor: '#6081EC',
-        borderWidth: 0, // Explicitly remove border for active state
+        borderWidth: 0,
     },
     disabled: {
         backgroundColor: '#fff',
