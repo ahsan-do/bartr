@@ -49,6 +49,7 @@ const Card = ({ item }) => {
 
             <View style={styles.cardContent}>
                 <Image source={typeof item.item.image === 'string'?{ uri: item.item.image }: item.item.image} style={styles.itemImage} />
+                <Image source={require('../assets/icons/pagination.png')} style={styles.pagination} />
                 <View style={styles.itemDetails}>
                     <Text style={styles.itemTitle}>{item.item.title}</Text>
                     <Text style={styles.additionalItems}>{item.item.additionalItems}</Text>
@@ -158,6 +159,13 @@ const styles = StyleSheet.create({
         height: 167,
         borderRadius: 8,
         marginRight: 20,
+        position: 'relative',
+    },
+    pagination: {
+
+        position: 'absolute',
+        bottom: -20,
+        left: 50,
     },
     itemDetails: {
         flex: 1,
